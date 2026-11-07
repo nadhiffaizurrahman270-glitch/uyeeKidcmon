@@ -5,6 +5,8 @@ import AboutMe from "./components/AboutMe";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -94,7 +96,7 @@ function App() {
               </span>
 
               <a
-                href="https://github.com/"
+                href="https://github.com/nadhiffaizurrahman270-glitch"
                 target="_blank"
                 rel="noreferrer"
                 title="GitHub"
@@ -104,17 +106,7 @@ function App() {
               </a>
 
               <a
-                href="https://linkedin.com/"
-                target="_blank"
-                rel="noreferrer"
-                title="LinkedIn"
-                className="text-gray-400 hover:text-blue-400 transition"
-              >
-                <Globe size={22} />
-              </a>
-
-              <a
-                href="mailto:your@email.com"
+                href="mailto:nadhiffaizurrahman270@email.com"
                 title="Email"
                 className="text-gray-400 hover:text-blue-400 transition"
               >
@@ -210,6 +202,12 @@ function App() {
 
       {/* EDUCATION SECTION */}
       <Education />
+
+      {/* CONTACT SECTION */}
+      <Contact />
+
+      {/* FOOTER SECTION */}
+      <Footer />
 
     </main>
   );
